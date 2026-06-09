@@ -1,28 +1,323 @@
 <!DOCTYPE html>
-<html lang="en"> 
+<html lang="en">
 
 <head>
-    
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=divice-width, initial-scale=1.0"> 
-
-    <title>Hanh Nguyen</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hanh Nguyen | IT & Cybersecurity Portfolio</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
-        
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
     <script src="https://unpkg.com/lucide@1.17.0/dist/umd/lucide.min.js"></script>
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body class="bg-white text-dark">
-    
+    <header class="site-header py-3 shadow-sm">
+        <div class="container d-flex align-items-center justify-content-between">
+            <button class="navbar-toggler d-md-none" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-    <h1>This is a Heading</h1>
-    <p>This is a paragraph.</p>
+            <nav class="collapse navbar-collapse" id="mainNav">
+                <ul class="navbar-nav ms-auto align-items-center gap-3">
+                    <li class="nav-item"><a class="nav-link active" href="#hero">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#certifications">Certifications</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
+    <main>
+        <section id="hero" class="hero section text-center text-md-start">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-7">
+                        <h1 class="display-5 fw-bold">Building secure systems, training AI, and supporting cyber operations.</h1>
+                        <p class="hero-copy">Bilingual AI trainer and SOC analyst in training, with hands-on experience through the Phishing Awareness Training Platform and cybersecurity research.</p>
+
+                        <div class="hero-actions d-flex flex-column flex-sm-row gap-3 mt-4">
+                            <a class="btn btn-primary btn-lg" href="#projects">View Projects</a>
+                            <a class="btn btn-outline-primary btn-lg" href="#contact">Connect</a>
+                        </div>
+
+                        <div class="hero-meta mt-5">
+                            <span class="badge">Django</span>
+                            <span class="badge">Python</span>
+                            <span class="badge">MySQL</span>
+                            <span class="badge">SOC Analyst</span>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-5 mt-5 mt-lg-0">
+                        <div class="hero-card p-4 rounded-4 shadow-sm">
+                            <div class="hero-card-inner">
+                                <p class="mb-2 text-muted">Hello I'm Hanh Nguyen!</p>
+                                <p class="mb-3">Adaptable Junior IT/Cybersecurity professional and computer science &amp; cybersecurity graduate with experience in SOC analysis, cybersecurity research, AI model training, and project management. Skilled in security monitoring, incident response, network traffic analysis, vulnerability scanning, hardware/software troubleshooting, and AI/Cloud Security. Motivated and committed to delivering high standards in both individual and team settings.</p>
+                                
+                                <div class="d-flex gap-3 contact-buttons flex-wrap">
+                                    <a href="mailto:hanhn017@outlook.com" class="btn btn-secondary btn-sm">Email Me</a>
+                                    <a href="#contact" class="btn btn-outline-secondary btn-sm">Contact</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section bg-light">
+            <div class="container">
+                <div class="row align-items-center gx-5">
+                    <div class="col-lg-6">
+                        <span class="section-label">About Me</span>
+                        <h2>IT and cybersecurity work with a research-driven mindset.</h2>
+                        <p class="section-copy">I blend cybersecurity research, project management, and software development experience to build secure training tools and support SOC operations. My background includes phishing defense, security awareness tooling, and co-authoring published cyber policy research.</p>
+                        <ul class="about-list list-unstyled mt-4">
+                            <li><strong>Phishing training tools</strong> built from scratch with HTML, CSS, Django, Python, and MySQL.</li>
+                            <li><strong>SOC analyst training</strong> experience at Centururion Secured.</li>
+                            <li><strong>Bilingual AI training</strong> and support for data labeling and model improvement.</li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-6 mt-5 mt-lg-0">
+                        <div class="row g-3">
+                            <div class="col-sm-6">
+                                <div class="stat-card p-4 rounded-4">
+                                    <h3>Phishing training</h3>
+                                    <p>Tool developed with a security-first team.</p>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="stat-card p-4 rounded-4">
+                                    <h3>Accomplishment</h3>
+                                    <p>Co-author of Understanding Russia's Cyber Policies, Strategies, and Doctrines in the MCPA Journal. <a href="https://digitalcommons.usf.edu/mca/vol8/iss1/11/" target="_blank" rel="noopener" class="d-block mt-2" style="color: var(--accent); font-size: 0.9rem;">View Publication →</a></p>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="stat-card p-4 rounded-4">
+                                    <h3>SOC Ready</h3>
+                                    <p>Training completed at Centururion Secured.</p>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="stat-card p-4 rounded-4">
+                                    <h3>Bilingual</h3>
+                                    <p>AI training and support in two languages.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <div class="container">
+                <div class="section-header text-center mb-5">
+                    <span class="section-label">Projects</span>
+                    <h2>Selected cybersecurity work</h2>
+                    <p class="section-copy mx-auto">Tools and applications developed with a focus on secure training, incident readiness, and cyber operations support.</p>
+                </div>
+
+                <div class="row g-4">
+                    <div class="col-md-6 col-xl-4">
+                        <article class="project-card rounded-4 shadow-sm overflow-hidden">
+                            <div class="project-card-top p-4 bg-white">
+                                <h3>Phishing Training Platform</h3>
+                                <p>Built from scratch with HTML, CSS, Django, Python, and MySQL to simulate phishing exercises and track user responses.</p>
+                            </div>
+                            <div class="project-card-footer p-4 bg-accent-soft d-flex justify-content-between align-items-center">
+                                <span class="project-tag">Django · Python · MySQL</span>
+                                <a href="https://github.com/hAnguyen1517/phishingAwarenessTool" class="text-decoration-none text-primary" target="_blank" rel="noopener">View on GitHub</a>
+                            </div>
+                        </article>
+                    </div>
+
+                    <!-- Removed non-cybersecurity demo projects to focus on security work -->
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section bg-light">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-5">
+                        <span class="section-label">Skills</span>
+                        <h2>Tools & technologies I use</h2>
+                        <p class="section-copy">From secure application development to SOC workflows and AI training, I use industry tools to build reliable cyber-ready solutions.</p>
+                    </div>
+                    <div class="col-lg-7 mt-4 mt-lg-0">
+                        <div class="skills-grid row g-3">
+                            <div class="col-sm-6">
+                                <div class="skill-pill">HTML</div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="skill-pill">CSS</div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="skill-pill">Django</div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="skill-pill">Python</div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="skill-pill">MySQL</div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="skill-pill">SOC Analysis</div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="skill-pill">Cyber Research</div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="skill-pill">AI Training</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="certifications" class="section bg-light">
+            <div class="container">
+                <div class="section-header text-center mb-5">
+                    <span class="section-label">Certifications</span>
+                    <h2>Validated cybersecurity and IT credentials</h2>
+                    <p class="section-copy mx-auto">Industry certifications and badges that support my technical knowledge and security skills.</p>
+                </div>
+
+                <div class="row g-4 justify-content-center">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="project-card rounded-4 shadow-sm overflow-hidden">
+                            <div class="project-card-top p-4 bg-white text-center">
+                                <img src="images/logos/A+.png" alt="CompTIA A+" style="max-width: 100px; margin-bottom: 1rem;">
+                                <h3>CompTIA A+</h3>
+                                <p>Verified knowledge of hardware, software, and support fundamentals.</p>
+                            </div>
+                            <div class="project-card-footer p-4 bg-accent-soft d-flex justify-content-center">
+                                <a href="https://www.credly.com/badges/55b2634f-101c-45b6-b8ea-5063c3cb367d" target="_blank" rel="noopener" class="text-decoration-none text-primary">View Credential</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="project-card rounded-4 shadow-sm overflow-hidden">
+                            <div class="project-card-top p-4 bg-white text-center">
+                                <img src="images/logos/Security+.png" alt="CompTIA Security+" style="max-width: 100px; margin-bottom: 1rem;">
+                                <h3>CompTIA Security+</h3>
+                                <p>Core security concepts, risk management, and operational security.</p>
+                            </div>
+                            <div class="project-card-footer p-4 bg-accent-soft d-flex justify-content-center">
+                                <a href="https://www.credly.com/badges/e366aca9-274b-468f-a895-a930e9b1a03c" target="_blank" rel="noopener" class="text-decoration-none text-primary">View Credential</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="project-card rounded-4 shadow-sm overflow-hidden">
+                            <div class="project-card-top p-4 bg-white text-center">
+                                <img src="images/logos/CEH_2E345519D3F7.webp" alt="EC-Council Certified Ethical Hacker v13" style="max-width: 100px; margin-bottom: 1rem;">
+                                <h3>CEH v13</h3>
+                                <p>Ethical hacking and penetration testing methodology.</p>
+                            </div>
+                            <div class="project-card-footer p-4 bg-accent-soft d-flex justify-content-center">
+                                <a href="https://aspen.eccouncil.org/VerifyBadge?&type=certification&a=aYZN2Z6tHJj3bC0nKkA8Ah3Ynw+a1/6I18c4UCyTLZo=" target="_blank" rel="noopener" class="text-decoration-none text-primary">View Credential</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="project-card rounded-4 shadow-sm overflow-hidden">
+                            <div class="project-card-top p-4 bg-white text-center">
+                                <img src="images/logos/Google_IT_Support.png" alt="Google IT Support" style="max-width: 100px; margin-bottom: 1rem;">
+                                <h3>Google IT Support</h3>
+                                <p>Foundational IT support practices and troubleshooting.</p>
+                            </div>
+                            <div class="project-card-footer p-4 bg-accent-soft d-flex justify-content-center">
+                                <a href="https://www.credly.com/badges/03b7c633-3eb6-4315-9423-3bf2730929a6" target="_blank" rel="noopener" class="text-decoration-none text-primary">View Credential</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="project-card rounded-4 shadow-sm overflow-hidden">
+                            <div class="project-card-top p-4 bg-white text-center">
+                                <img src="images/logos/Google-AI-Essentials.png" alt="Google AI Essentials" style="max-width: 100px; margin-bottom: 1rem;">
+                                <h3>Google AI Essentials</h3>
+                                <p>AI fundamentals and practical model workflows.</p>
+                            </div>
+                            <div class="project-card-footer p-4 bg-accent-soft d-flex justify-content-center">
+                                <a href="https://www.coursera.org/account/accomplishments/specialization/6SU1OIXN7PBR" target="_blank" rel="noopener" class="text-decoration-none text-primary">View Credential</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="project-card rounded-4 shadow-sm overflow-hidden">
+                            <div class="project-card-top p-4 bg-white text-center">
+                                <img src="images/logos/Cyber-Threat-Management.png" alt="Cisco Cyber Threat Management" style="max-width: 100px; margin-bottom: 1rem;">
+                                <h3>Cisco Cyber Threat Management</h3>
+                                <p>Advanced threat detection and cyber defense strategies.</p>
+                            </div>
+                            <div class="project-card-footer p-4 bg-accent-soft d-flex justify-content-center">
+                                <a href="https://www.credly.com/badges/26a4184e-b7fe-4a90-b53b-c3a1fc9fd9e6" target="_blank" rel="noopener" class="text-decoration-none text-primary">View Credential</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <div class="container">
+                <div class="row align-items-center justify-content-between">
+                    <div class="col-lg-7">
+                        <span class="section-label">Contact</span>
+                        <h2>Ready to join a red/blue team or programming group.</h2>
+                        <p class="section-copy">I’m seeking roles in cybersecurity operations, red/blue team work, and software development. Let’s connect to explore how I can support your next secure technology project.</p>
+                    </div>
+                    <div class="col-lg-4 mt-4 mt-lg-0">
+                        <div class="contact-card p-4 rounded-4 shadow-sm">
+                            <p class="mb-1 text-muted">Email</p>
+                            <a href="mailto:hanhn017@outlook.com" class="contact-link">hanhn017@outlook.com</a>
+                            <!-- GitHub link removed from contact card -->
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer py-4 bg-white border-top">
+        <div class="container">
+            <div class="row align-items-center justify-content-between mb-3">
+                <div class="col-md-6">
+                    <p class="mb-0 text-muted">© <span id="currentYear"></span> Hanh Nguyen. IT & Cybersecurity professional.</p>
+                </div>
+                <div class="col-md-6 text-md-end mt-2 mt-md-0">
+                        <div class="d-flex gap-3 justify-content-md-end">
+                        <a href="https://github.com/hAnguyen1517" target="_blank" rel="noopener noreferrer" aria-label="GitHub" class="text-muted text-decoration-none d-flex align-items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                                <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.387.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.725-4.042-1.61-4.042-1.61-.546-1.387-1.333-1.757-1.333-1.757-1.089-.745.083-.73.083-.73 1.205.084 1.84 1.237 1.84 1.237 1.07 1.835 2.809 1.305 3.495.998.108-.776.418-1.305.762-1.605-2.665-.305-5.467-1.335-5.467-5.93 0-1.31.468-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.243 2.874.119 3.176.77.84 1.235 1.911 1.235 3.221 0 4.61-2.807 5.622-5.479 5.92.43.372.823 1.102.823 2.222 0 1.605-.015 2.898-.015 3.293 0 .322.216.694.825.576C20.565 22.092 24 17.592 24 12.297 24 5.67 18.627.297 12 .297z"/>
+                            </svg>
+                        </a>
+                        <a href="https://www.linkedin.com/in/hanh-n/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" class="text-muted text-decoration-none d-flex align-items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                                <path d="M4.98 3.5C4.98 4.88 3.87 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1 4.98 2.12 4.98 3.5zM.5 8h4V24h-4V8zM8.5 8h3.84v2.16h.05c.54-1.02 1.86-2.16 3.83-2.16 4.1 0 4.86 2.7 4.86 6.2V24h-4v-7.2c0-1.72-.03-3.93-2.4-3.93-2.4 0-2.77 1.88-2.77 3.82V24h-4V8z"/>
+                            </svg>
+                        </a>
+                        <a href="mailto:hanhn017@outlook.com" aria-label="Email" class="text-muted text-decoration-none"><i data-lucide="mail"></i></a>
+                    </div>
+                </div>
+            </div>
+            <p class="mb-0 text-muted text-center text-md-end">Built responsively with modern standards and security-minded content.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" defer></script>
+    <script src="jscript.js" defer></script>
 </body>
 
 </html>
